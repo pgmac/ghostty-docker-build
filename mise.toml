@@ -1,0 +1,4 @@
+# Host tools for build-install.sh. Docker and curl come from the system.
+[tools]
+jq = "1.8"          # Looks up the Zig release checksum
+shellcheck = "0.11" # Lints build-install.sh
